@@ -33,6 +33,6 @@ const genRollingCode = (alphabet, length) => {
     const length = +process.argv[3]
     const rc = genRollingCode(alphabet, length)
     console.log(rc)
-    console.log(alphabet, length, rc.length)
-//            console.log(rc.length, Math.pow(alpha.length, length) + length - 1)
+//    console.log(alphabet, length, rc.length)
+//    console.log(rc.length, Math.pow(alpha.length, length) + length - 1)
 })()
