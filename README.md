@@ -9,3 +9,5 @@ This code makes the shortest code of a given alphabet and length that contains
 every subsequence of the given length of characters of the given alphabet.
 
 Usage: `node main.js alphabet length`
+
+Warning: It's very easy to run out of memory with this algorithm
